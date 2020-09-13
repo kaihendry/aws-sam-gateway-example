@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: go-serverless-api-lambda
       Runtime: go1.x
-      CodeUri: ./go-serverless-api-lambda.zip
+      CodeUri: src/go-serverless-api-lambda
       Events:
         Greedy:
           Type: Api
@@ -19,3 +19,7 @@ Resources:
           Properties:
             Method: ANY
             Path: /
+
+Outputs:
+  EndpointUrl:
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"

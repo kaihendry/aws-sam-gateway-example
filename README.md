@@ -12,3 +12,10 @@ Nonetheless whilst Apex Up is around, I suggest you use it!
 
 
 Deployed: https://ap-southeast-1.console.aws.amazon.com/lambda/home?region=ap-southeast-1#/applications/aws-sam-gateway-example
+
+# Local development
+
+	cd src/go-serverless-api
+	gin
+
+https://github.com/codegangsta/gin
