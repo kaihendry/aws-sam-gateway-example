@@ -2,16 +2,16 @@ package main
 
 import (
 	"log"
-	"net/http"
 
 	"github.com/apex/gateway"
-	goserverlessapi "github.com/kaihendry/aws-sam-gateway-example"
-
-	"github.com/julienschmidt/httprouter"
+	"github.com/gorilla/pat"
+	goserverlessapi "github.com/kaihendry/aws-sam-gateway-example/src"
 )
 
 func main() {
-	router := httprouter.New()
-	router.Handler("GET", "/healthz", http.HandlerFunc(goserverlessapi.HealthHandler))
-	log.Fatal(gateway.ListenAndServe("", router), nil)
+	app := pat.New()
+	app.Get("/", goserverlessapi.Get)
+	app.Post("/", goserverlessapi.Post)
+	app.Post("/healthz", goserverlessapi.HealthHandler)
+	log.Fatal(gateway.ListenAndServe("", app), nil)
 }
