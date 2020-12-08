@@ -19,3 +19,7 @@ Deployed: https://ap-southeast-1.console.aws.amazon.com/lambda/home?region=ap-so
 	gin
 
 https://github.com/codegangsta/gin
+
+# Alternative proxy approach
+
+https://github.com/awslabs/aws-lambda-go-api-proxy shows how to proxy the handlers, though I find https://github.com/apex/gateway drop in replacement for **ListenAndServe** far easier to work with.
