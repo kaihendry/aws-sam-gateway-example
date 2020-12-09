@@ -1,4 +1,4 @@
-module github.com/kaihendry/aws-sam-gateway-example/src
+module github.com/kaihendry/aws-sam-gateway-example
 
 go 1.15
 

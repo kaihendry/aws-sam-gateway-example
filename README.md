@@ -15,11 +15,13 @@ Deployed: https://ap-southeast-1.console.aws.amazon.com/lambda/home?region=ap-so
 
 # Local development
 
-	cd src/go-serverless-api
+	cd local-go-serverless-api
 	gin
 
 https://github.com/codegangsta/gin
 
 # Alternative proxy approach
 
-https://github.com/awslabs/aws-lambda-go-api-proxy shows how to proxy the handlers, though I find https://github.com/apex/gateway drop in replacement for **ListenAndServe** far easier to work with.
+https://github.com/awslabs/aws-lambda-go-api-proxy shows how to proxy the
+handlers, though I find https://github.com/apex/gateway drop in replacement for
+**ListenAndServe** far easier to work with.

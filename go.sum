@@ -38,6 +38,7 @@ github.com/jpillora/backoff v0.0.0-20180909062703-3050d21c67d7/go.mod h1:2iMrUgb
 github.com/julienschmidt/httprouter v1.3.0 h1:U0609e9tgbseu3rBINet9P48AI/D3oJs4dN7jwJOQ1U=
 github.com/julienschmidt/httprouter v1.3.0/go.mod h1:JR6WtHb+2LUe8TCKY3cZOxFyyO8IZAc4RVcycCCAKdM=
 github.com/kaihendry/aws-sam-gateway-example v0.0.0-20200913024425-a0b4af694278 h1:xd53bdYxqZKB4ldm4XZhiJ8MDqNUUOfeju/pqPXC6Zs=
+github.com/kaihendry/aws-sam-gateway-example v0.0.0-20201208084852-3bb444c7d457 h1:c80c7Tx6LzMD3S3KOCDLouTnCYffYbyXWBew0xtOMrE=
 github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515/go.mod h1:+0opPa2QZZtGFBFZlji/RkVcI2GknAs/DXo4wKdlNEc=
 github.com/kr/pretty v0.2.0/go.mod h1:ipq/a2n7PKx3OHsz4KJII5eveXtPO4qwEXGdVfWzfnI=
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=

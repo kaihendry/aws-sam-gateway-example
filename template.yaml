@@ -5,9 +5,9 @@ Resources:
   GoAPI:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: go-serverless-api-lambda
+      Handler: lambda-go-serverless-api
       Runtime: go1.x
-      CodeUri: src/go-serverless-api-lambda
+      CodeUri: lambda-go-serverless-api
       Events:
         Greedy:
           Type: Api
