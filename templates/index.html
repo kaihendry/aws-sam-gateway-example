@@ -1,0 +1,15 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>demo {{ .Time }}</title>
+</head>
+<body>
+<h1>Version: {{ .Version }}</h1>
+<h3>Request Header</h3>
+<dl>
+{{range $key, $value := .Header -}}
+<dt>{{ $key }}</dt><dd>{{ $value }}</dd>
+{{end}}
+</dl>
+</body>
+</html>

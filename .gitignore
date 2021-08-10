@@ -1,4 +1,3 @@
+.aws-sam/
+main
 gin-bin
-go-serverless-api
-go-serverless-api-lambda
-.aws-sam

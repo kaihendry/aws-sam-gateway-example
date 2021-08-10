@@ -1,9 +1,0 @@
-version = 0.1
-[default]
-[default.deploy]
-[default.deploy.parameters]
-stack_name = "aws-sam-gateway-example"
-s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-i3wai8ebw69i"
-s3_prefix = "aws-sam-gateway-example"
-region = "ap-southeast-1"
-capabilities = "CAPABILITY_IAM"
