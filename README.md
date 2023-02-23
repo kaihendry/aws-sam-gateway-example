@@ -1,3 +1,3 @@
 Going back to first principals https://dabase.com/blog/2020/sam-sucks/
 
-UPDATE: I'm moving to AWS CDK https://github.com/kaihendry/go-cdk2-hello
+UPDATE: I'm back on SAM https://github.com/kaihendry/helloworld/
